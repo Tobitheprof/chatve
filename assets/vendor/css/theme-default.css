@@ -211,12 +211,21 @@ button.list-group-item-primary.active {
   color: #435971;
   border-color: #d1d4f1;
 }
-header .custom-bg-1{
-  background: var(--bg1) !important;
+header{
+  background: #162446;
 }
 .table-primary th {
   border-bottom-color: inherit !important;
 }
+
+.custom-bg-1{
+  background: #162446 !important;
+}
+
+.shadow {
+  box-shadow: 0 0.25rem 1rem #1d2745 !important;
+}
+
 /* background: linear-gradient(94.84deg, #FE9059 40.18%, #FEA526 72.3%); */
 
 
@@ -232,15 +241,15 @@ header .custom-bg-1{
   color: #fff;
   background: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
   border-color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(105, 108, 255, 0.4);
+  box-shadow: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #e75294
+  background-color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%)
 ;
-  border-color: #e75294
+  border-color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%)
 ;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -363,6 +372,8 @@ header .custom-bg-1{
 .custom-option.checked {
   border: 1px solid #e75294;
 }
+
+
 
 .form-switch .form-check-input:focus {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23696cff'/%3e%3c/svg%3e");
@@ -589,10 +600,10 @@ html[dir=rtl] .border-primary {
 }
 
 .nav-link {
-  color: #000;
+  color: #fff;
 }
 a:hover {
-  color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);;
+  color: #FE827B;
 }
 
 .fill-primary {
