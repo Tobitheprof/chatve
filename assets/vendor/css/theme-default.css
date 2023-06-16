@@ -221,9 +221,19 @@ header{
 .custom-bg-1{
   background: #162446 !important;
 }
+.custom-bg-2{
+  background: #1d2745;
+}
 
 .shadow {
   box-shadow: 0 0.25rem 1rem #1d2745 !important;
+}
+
+.custom-icon .bx{
+  color: #fff;
+  border-radius: 50%;
+  background: linear-gradient(94.84deg, #FE9059 40.18%, #FEA526 72.3%);
+  font-size: 47px;
 }
 
 /* background: linear-gradient(94.84deg, #FE9059 40.18%, #FEA526 72.3%); */
@@ -239,9 +249,9 @@ header{
 
 .btn-primary {
   color: #fff;
-  background: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
-  border-color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
-  box-shadow: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
+  background: linear-gradient(94.84deg, #FE9059 40.18%, #FEA526 72.3%);
+  border-color: linear-gradient(94.84deg, #FE9059 40.18%, #FEA526 72.3%);
+  box-shadow: linear-gradient(94.84deg, #FE9059 40.18%, #FEA526 72.3%);
 }
 .btn-primary:hover {
   color: #fff;
