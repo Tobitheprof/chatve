@@ -211,8 +211,8 @@ button.list-group-item-primary.active {
   color: #435971;
   border-color: #d1d4f1;
 }
-nav .custom-bg-1{
-  background-color: var(--bg1) !important;
+header .custom-bg-1{
+  background: var(--bg1) !important;
 }
 .table-primary th {
   border-bottom-color: inherit !important;
@@ -588,11 +588,11 @@ html[dir=rtl] .border-primary {
   border-color: #e75294 !important;
 }
 
-a {
-  color: #e75294;
+.nav-link {
+  color: #000;
 }
 a:hover {
-  color: #787bff;
+  color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);;
 }
 
 .fill-primary {

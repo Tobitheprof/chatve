@@ -3269,7 +3269,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1.25rem;
-  color: #8e9baa;
+  color: #fff;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3278,7 +3278,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #5f61e6;
+  color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
 }
 .nav-link.disabled {
   color: #c7cdd4;
@@ -3307,7 +3307,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #697a8d;
+  color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);
   background-color: #fff;
   border-color: #fff;
 }
@@ -3766,7 +3766,7 @@ textarea.form-control-lg {
   color: #697a8d;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: #697a8d;
+  color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%);;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(67, 89, 113, 0.5);
@@ -3779,7 +3779,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #697a8d;
+  color: linear-gradient(90.13deg, #FE827B 43.25%, rgba(254, 142, 95, 0.78) 70.99%) !important;
 }
 .navbar-light .navbar-toggler {
   color: rgba(67, 89, 113, 0.5);
